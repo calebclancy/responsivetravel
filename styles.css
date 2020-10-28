@@ -1,0 +1,62 @@
+h1{
+  text-align: center;
+  font-size: 3.5em;
+  background-image:url("reef.jpg");
+  height:175px;
+  width:auto;
+  margin: -10px;
+  color:Black;
+  font-variant: small-caps;
+}
+p{
+  background-color: lightblue;
+  text-align: center;
+  margin: -2px;
+  margin-right: -8px;
+  margin-left: -8px;
+  font-size: 1.75em;
+  padding-left: 15px;
+  padding-right:15px;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+h2{
+  text-align: center;
+  font-size:2.5em;
+  background-color: lightgrey;
+  height:75px;
+  margin:-3px;
+  padding-top: 30px;
+  margin-left: -8px;
+  margin-right:-8px;
+  font-variant: small-caps;
+}
+.gallery{
+  text-align: center;
+  padding-top: 5px;
+  background-color: lightblue;
+  margin-left: -8px;
+  margin-right:-8px;
+}
+nav{
+  padding:15px;
+  text-align: center;
+  font-size: 2em;
+  background-color: lightgray;
+  margin-left: -8px;
+  margin-right:-8px;
+}
+a{
+  color:black;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding:15px;
+}
+a:hover{
+  background-color: lightblue;
+}
+@media all and (max-width:800px){
+.gallery{background-color:lightgreen;}
+.menu{display:none;}
+}
