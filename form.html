@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Travel Form</title>
+  <link href="styles.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <h1>Travel to Australia</h1>
+  </header>
+  <div class="menu">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Home">About Us</a>
+      <a href="Home">Contact</a>
+      <a href="form.html">Form</a>
+    </nav>
+  </div>
+  <div class="container">
+    <h1> Fill out this form so that we may provide more info for your trip to Australia</h1>
+    <form class="" method="get" action="thankyou.html">
+      <fieldset>
+        <legend> Contact Info </legend><br>
+        <div class="name">
+          <label for="fname">First Name:</label>
+          <input type="text" placeholder="First Name" required autofocus id="fname">
+          <label for="lname">Last Name:</label>
+          <input type="text" placeholder="Last Name" required id="lname"><br>
+        </div>
+        <label for="phone-number">Phone Number:</label>
+        <input type="text" placeholder="E.x:417-123-4567" id="phone-number">
+        <label for="email">Email:</label>
+        <input type="text" placeholder="something@gmail.com" id="email"><br>
+        <h2> Preferred Method of Contact</h2>
+        <label for="phone-call">Phone Call</label>
+        <input type="radio" name="phone-call" id="phone-call" value="phone-call">
+        <label for="email">Email</label>
+        <input type="radio" name="email" id="prefer-email" value="email">
+        <label for="text">Text</label>
+        <input type="radio" name="text" id="text" value="text">
+        <div class="submit">
+          <input type="submit" value="Submit">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>

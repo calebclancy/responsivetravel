@@ -1,4 +1,7 @@
-h1{
+body{
+  background-color:lightgray;
+}
+header{
   text-align: center;
   font-size: 3.5em;
   background-image:url("reef.jpg");
@@ -59,4 +62,27 @@ a:hover{
 @media all and (max-width:800px){
 .gallery{background-color:lightgreen;}
 .menu{display:none;}
+h1{font-size:1.2em;;}
+#phone-number,#fname,#email,#lname{padding-right:250px;}
+}
+h1{
+  text-align: center;
+  font-variant:small-caps;
+  font-weight:bold;
+}
+.container{
+  background-color:lightblue;
+}
+.container h2{
+    font-size:1.5em;
+    font-weight:bold;
+    background-color:lightblue;
+    padding:15px;
+    height:30px;
+}
+.name{
+  padding-bottom:15px;
+}
+.submit{
+  padding-top:15px;
 }
